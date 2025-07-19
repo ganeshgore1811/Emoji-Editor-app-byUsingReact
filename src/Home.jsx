@@ -71,6 +71,8 @@ function Home() {
           <EmojiButton emoji="🍀" setEmojis={setEmojis} />
           <EmojiButton emoji="🍃" setEmojis={setEmojis} />
           <EmojiButton emoji="🍂" setEmojis={setEmojis} />
+          <EmojiButton emoji="🍁" setEmojis={setEmojis} />
+          <EmojiButton emoji="🌸" setEmojis={setEmojis} />
         </div>
 
         <div className="color-picker">
