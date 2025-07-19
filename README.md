@@ -2,7 +2,7 @@
 
 This is a fun and interactive **React project** that demonstrates how to use the `useState` hook to dynamically update emojis, font size, rotation, and background color. It’s a perfect hands-on example for beginners learning React.
 
-![Alt text](./desktop.png "Hover text")
+![Alt text](./src/desktop.png "Hover text")
 
 ---
 
