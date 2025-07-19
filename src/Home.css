@@ -1,0 +1,105 @@
+.container{
+    background-color:#f8fafc;
+}
+
+.app-container{
+    z-index: 10;
+}
+
+.header{
+    text-align: center;
+    color: #666666;
+}
+
+.header-highlight{
+    color: #0066ff;
+}
+
+.app-description{
+    text-align: center;
+    color:  #595959;
+}
+
+.min-h-screen{
+    min-height: 100vh;
+}  
+
+.w-full{
+    width: 100%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.inset-0{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.z-0{
+    z-index: 0;
+}
+
+.emoji-container {
+    background-color: tomato;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #595959;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-picker {
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color:#e6e6e6;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 205px;
+    flex-wrap: wrap;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+}
+.color-picker {
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color:#e6e6e6;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 205px;
+    flex-wrap: wrap;
+}
+
+.angle-container{
+    display: flex;
+    justify-content: center;
+}
+
+.rotate-image{
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
