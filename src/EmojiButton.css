@@ -1,14 +1,17 @@
 .emoji-option {
-    font-size: 14px;
-    background-color:white;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 1px solid transparent;
+  font-size: 18px;
+  background-color: white;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: 0.2s ease;
+  text-align: center;
 }
 
 .emoji-option:hover {
-    border: 1px solid #555595;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-color: #555595;
+  background-color: #e0e0ff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }

@@ -1,16 +1,15 @@
 .color-button {
-    font-size: 14px;
-    background-color:white;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    height: 10px;
-    width: 10px;
+  height: 20px;
+  width: 20px;
+  margin: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
 }
 
 .color-button:hover {
-    border: 1px solid #555595;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.2);
+  border: 2px solid #333;
 }
