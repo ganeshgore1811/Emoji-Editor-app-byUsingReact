@@ -1,12 +1,28 @@
-# React + Vite
+# 🌟 Emoji Editor – React App using useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun and interactive **React project** that demonstrates how to use the `useState` hook to dynamically update emojis, font size, rotation, and background color. It’s a perfect hands-on example for beginners learning React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demo Features
 
-## Expanding the ESLint configuration
+- 🌱 Add multiple emojis
+- 🎚️ Adjust emoji size using a slider
+- 🔄 Rotate emoji by 45° on each click
+- 🎨 Change background color using color pickers
+- 🧹 Clear all emojis
+- 📋 Copy emojis to clipboard
+- 🖱️ Hover and animated emoji styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Concepts Covered
+
+- React `useState` hook
+- Component communication via props
+- Conditional inline styling
+- Basic CSS styling and transitions
+- Event handling (onClick, onChange)
+- Reusability with custom components
+
+
